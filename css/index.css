@@ -11,6 +11,8 @@ p{
 .stories {
   text-align: center;
   padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .news {
   background-color: white;
@@ -20,6 +22,8 @@ p{
   margin: 1em 0;
   text-align: left;
   border-radius: 25px;
+  box-shadow: 3px 3px 5px 6px black;
+  
 }
 .news-lead {
   text-align: center;
@@ -36,12 +40,19 @@ a{
   width: 100%;
   text-align: center;
 }
+.button{
+  text-align: center;
+  padding-bottom: 20px;
+}
 .pagination{
   color: black;
-  padding 2em;
+  padding: auto;
   text-decoration: none;
-  border: 1px solid grey;
   display: inline-block;
+  
+}
+
+.pagination center{
   text-align: center;
 }
   
