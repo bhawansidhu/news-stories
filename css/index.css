@@ -3,16 +3,20 @@ body {
 }
 h1 h2{
   font-family:  'sans-serif';
+  padding: 2em 1em;
 
 }
 p{
   font-family: serif;
+  padding: 0 1em;
 }
 .stories {
   text-align: center;
   padding: 1em;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+  max-width: 60em;
 }
 .news {
   background-color: white;
@@ -21,8 +25,10 @@ p{
   max-width: 30em;
   margin: 1em 0;
   text-align: left;
-  border-radius: 25px;
-  box-shadow: 3px 3px 5px 6px black;
+  border-radius: 2em;
+  border: 0.25 solid black;
+  box-shadow: 3px 3px 5px 6px rgba(0, 0, 0.5, 0.5);
+  
   
 }
 .news-lead {
@@ -31,18 +37,18 @@ p{
 .news-img {
   max-width: 100%;
 }
-a{
-  color: white;
-  background-color:#333333;
-  border: 2px, solid darkslategray;
-  padding: 2px 2px 2px 2px ;
-  text-decoration: none;
-  width: 100%;
-  text-align: center;
-}
+
 .button{
+  display: inline-block;
   text-align: center;
-  padding-bottom: 20px;
+  color: whitesmoke;
+  background-color: black;
+  border: 2px, solid darkslategray;
+  padding: 3px 3px;
+  text-decoration: none;
+  margin: 1em 6em;;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0.5, 0.5); 
+  
 }
 .pagination{
   color: black;
