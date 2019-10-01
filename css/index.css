@@ -1,8 +1,16 @@
 body {
   background-color: lightgrey;
 }
+h1 h2{
+  font-family:  'sans-serif';
+
+}
+p{
+  font-family: serif;
+}
 .stories {
   text-align: center;
+  padding: 1em;
 }
 .news {
   background-color: white;
@@ -10,6 +18,8 @@ body {
   overflow: hidden;
   max-width: 30em;
   margin: 1em 0;
+  text-align: left;
+  border-radius: 25px;
 }
 .news-lead {
   text-align: center;
@@ -17,3 +27,22 @@ body {
 .news-img {
   max-width: 100%;
 }
+a{
+  color: white;
+  background-color:#333333;
+  border: 2px, solid darkslategray;
+  padding: 2px 2px 2px 2px ;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+}
+.pagination{
+  color: black;
+  padding 2em;
+  text-decoration: none;
+  border: 1px solid grey;
+  display: inline-block;
+  text-align: center;
+}
+  
+ 
