@@ -59,13 +59,6 @@ p{
   box-shadow: 1em 1em 2em rgba(0, 0, 0.5, 0.5); 
   
 }
-.a{
-  color: whitesmoke;
-  background-color: black;
-  border: 2px, solid darkslategray;
-  padding: 3px 3px;
-  text-decoration: none;
-}
 .pagination{
   color: black;
   padding: auto;
