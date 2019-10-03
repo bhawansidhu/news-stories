@@ -1,5 +1,14 @@
 body {
-  background-color: lightgrey;
+  background-color: lightyellow;
+  }
+  
+  @media screen and (min-width: 40em) {
+    body { background-color: lightgreen; }
+  }
+  
+  @media screen and (min-width: 60em) {
+    body { background-color:lightslategray; }
+  }
 }
 h1 h2{
   font-family:  'sans-serif';
@@ -49,6 +58,13 @@ p{
   margin: 1em 6em;;
   box-shadow: 1em 1em 2em rgba(0, 0, 0.5, 0.5); 
   
+}
+.a{
+  color: whitesmoke;
+  background-color: black;
+  border: 2px, solid darkslategray;
+  padding: 3px 3px;
+  text-decoration: none;
 }
 .pagination{
   color: black;
